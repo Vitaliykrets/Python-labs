@@ -47,9 +47,9 @@ def main():
     book3.public_numeric_field = 3
     book3.public_string_field = "Poetry"
 
- 
     for book in (book1, book2, book3):
         print(book)
 
 if __name__ == "__main__":
     main()
+#
