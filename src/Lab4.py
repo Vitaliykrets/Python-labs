@@ -3,8 +3,8 @@ class Book:
         self.__pages = pages
         self.__author = author
         self.__price = price
-        self.public_numeric_field = 0
-        self.public_string_field = ""
+        self.num = 0
+        self.text = ""
 
     def get_pages(self):
         return self.__pages
